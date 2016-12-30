@@ -25,7 +25,23 @@ var newAge = orc.age + 2;
 document.write(newAge);
 breakLine();
 
-orc.eat();
+if (orc.stomachFull === true) {
+    orc.eat();
+} else {
+    document.write("not eating");
+}
+breakLine();
+
+document.write("After stomachFull false");
+breakLine();
+
+orc.stomachFull = false;
+if (orc.stomachFull === true) {
+    orc.eat();
+} else {
+    document.write("not eating");
+}
+
 
 // object are created using curly braces {};
 // objects contains name value pair
