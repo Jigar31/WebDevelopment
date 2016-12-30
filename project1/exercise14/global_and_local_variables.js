@@ -18,3 +18,4 @@ document.write(name2 + "<br />"); // using local variable outside the function
 // usage of var keyword is recommended
 // here we didn't use "use strict"; which must be used inside the function
 // global variable can also be declared using window.variable_name
+// if any statement gives error than no statement after that will be executed.
