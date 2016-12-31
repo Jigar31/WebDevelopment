@@ -10,7 +10,7 @@ function changeStyle() {
 
     para[0].style.fontStyle = "italic";
 
-    for (i = 1; i < 4; i += 1) {
+    for (i = 1; i < para.length; i += 1) {
         para[i].style.fontStyle = "italic";
     }
 }
