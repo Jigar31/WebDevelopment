@@ -20,3 +20,6 @@ print(newNum3);
 
 var newNum4 = Math.sqrt(number);
 print(newNum4);
+
+var newNum5 = Math.pow(5, 2);
+print(newNum5);
