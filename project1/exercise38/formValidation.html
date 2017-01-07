@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <script type="text/javascript" src="formValidation.js">
+        
+    </script>
+</head>
+<body>
+    <h2>Fill out the form below and click Submit</h2>
+
+    <form id="theForm" action="message.html" method="post" onsubmit="return validateTextbox();">
+        <div class="row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="" />
+            <br />
+            <br />
+        </div>
+
+        <div class="row">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="" />
+            <br />
+            <br />
+        </div>
+
+        <div class="row">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="" />
+            <br />
+            <br />
+        </div>
+
+        <div class="row">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="" />
+            <br />
+            <br />
+        </div>
+
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
