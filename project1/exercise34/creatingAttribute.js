@@ -33,7 +33,7 @@ function createNewElements() {
     // alert("attribute set");
 
     var h2OnClick = document.createAttribute("onclick");
-    h2OnClick.value = "changeStyle(id)";
+    h2OnClick.value = "changeStyle(this.id)";
     // alert("onclick attribute added");
     h2Element.setAttributeNode(h2OnClick);
 
@@ -50,7 +50,7 @@ function createNewElements() {
     pElement.setAttributeNode(pId);
 
     var pOnClick = document.createAttribute("onclick");
-    pOnClick.value = "changeStyle(id)";
+    pOnClick.value = "changeStyle(this.id)";
     // alert("onclick attribute added");
     pElement.setAttributeNode(pOnClick);
 }
